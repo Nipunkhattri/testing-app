@@ -1,0 +1,10 @@
+subscription_id = "a66db4d1-4b92-4c2d-830b-341a8c0b5482"
+resource_group_name = "Deployment-Testing-RG"
+location = "centralindia"
+app_service_plan_name = "deployment-testing-plan"
+app_service_name = "deployment-testing-app"
+os_type = "Linux"
+sku_name = "B1"
+runtime_stack = "NODE"
+runtime_version = "18-lts"
+always_on = false

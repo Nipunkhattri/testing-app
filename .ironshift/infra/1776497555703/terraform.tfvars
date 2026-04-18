@@ -1,0 +1,10 @@
+subscription_id = "a66db4d1-4b92-4c2d-830b-341a8c0b5482"
+resource_group_name = "Deployment-Testing-RG"
+location = "East US"
+app_service_name = "testing-app"
+app_service_plan_name = "testing-app-plan"
+sku_name = "B1"
+os_type = "Linux"
+runtime_stack = "NODE"
+runtime_version = "18-lts"
+always_on = false

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="card">
+        <p class="eyebrow">Node.js Todo App</p>
+        <h1>Keep today organized.</h1>
+        <form id="todo-form" class="todo-form">
+          <input
+            id="todo-input"
+            type="text"
+            name="todo"
+            placeholder="What do you need to get done?"
+            maxlength="120"
+            required
+          />
+          <button type="submit">Add</button>
+        </form>
+
+        <div class="todo-meta">
+          <span id="todo-count">0 tasks</span>
+        </div>
+
+        <ul id="todo-list" class="todo-list"></ul>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
